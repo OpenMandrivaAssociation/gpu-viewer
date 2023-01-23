@@ -1,18 +1,17 @@
 %define		oname GPU-Viewer
 
 Name:		gpu-viewer
-Version:	1.40
+Version:	2.15
 Release:	1
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
-Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/arunsivaramanneo/GPU-Viewer/archive/v%{version}/%{name}-%{version}.tar.gz
 License:	GPLv3
 Group:		Development/Other
 BuildArch:	noarch
 BuildRequires:	meson
 BuildRequires:	ninja
 BuildRequires:	python-pkg-resources
-BuildRequires:	python3-pkg-resources
 BuildRequires:	imagemagick
 
 %description
