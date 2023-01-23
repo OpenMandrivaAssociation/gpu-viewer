@@ -5,7 +5,7 @@ Version:	2.15
 Release:	1
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
-Source0:	https://github.com/arunsivaramanneo/GPU-Viewer/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/arunsivaramanneo/GPU-Viewer/archive/v%{version}/%{oname}-%{version}.tar.gz
 License:	GPLv3
 Group:		Development/Other
 BuildArch:	noarch
