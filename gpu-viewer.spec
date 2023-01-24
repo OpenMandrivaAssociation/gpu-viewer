@@ -1,7 +1,7 @@
 %define		oname GPU-Viewer
 
 Name:		gpu-viewer
-Version:	2.15
+Version:	2.20
 Release:	1
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
@@ -24,10 +24,8 @@ Requires: xdpyinfo
 Requires: mesa-demos
 Requires: glxinfo
 Requires: eglinfo
-# vdpauinfo is in contrib repo, so lets make it for now recommended
-Recommends: vdpauinfo
-#Not in cooker yet
-#clinfo
+Requires: vdpauinfo
+Requires: clinfo
 
 %description
 A front-end to glxinfo, vulkaninfo, clinfo and es2_info.
