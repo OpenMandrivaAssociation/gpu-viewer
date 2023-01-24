@@ -14,6 +14,21 @@ BuildRequires:	ninja
 BuildRequires:	python-pkg-resources
 BuildRequires:	imagemagick
 
+Requires: gtk+3
+Requires: python-gobject3
+Requires: python-gi
+Requires: grep
+Requires: glxinfo
+Requires: vulkan-tools
+Requires: xdpyinfo
+Requires: mesa-demos
+Requires: glxinfo
+Requires: eglinfo
+# vdpauinfo is in contrib repo, so lets make it for now recommended
+Recommends: vdpauinfo
+#Not in cooker yet
+#clinfo
+
 %description
 A front-end to glxinfo, vulkaninfo, clinfo and es2_info.
 This project aims to capture all the important details of 
