@@ -2,7 +2,7 @@
 
 Name:		gpu-viewer
 Version:	2.26
-Release:	1
+Release:	2
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
 Source0:	https://github.com/arunsivaramanneo/GPU-Viewer/archive/v%{version}/%{oname}-%{version}.tar.gz
