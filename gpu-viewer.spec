@@ -65,4 +65,4 @@ done
 %{_datadir}/applications/io.github.arunsivaramanneo.GPUViewer.desktop
 %{_datadir}/metainfo/io.github.arunsivaramanneo.GPUViewer.metainfo.xml
 %{_datadir}/%{name}
-%{_iconsdir}/hicolor/*/apps/io.github.arunsivaramanneo.GPUViewer.png
+%{_iconsdir}/hicolor/*x*/apps/
