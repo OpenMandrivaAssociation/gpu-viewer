@@ -1,7 +1,7 @@
 %define		oname GPU-Viewer
 
 Name:		gpu-viewer
-Version:	2.30
+Version:	3.02
 Release:	1
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
@@ -65,4 +65,4 @@ done
 %{_datadir}/applications/io.github.arunsivaramanneo.GPUViewer.desktop
 %{_datadir}/metainfo/io.github.arunsivaramanneo.GPUViewer.metainfo.xml
 %{_datadir}/%{name}
-%{_iconsdir}/hicolor/*/apps/io.github.arunsivaramanneo.GPUViewer.png
+%{_iconsdir}/hicolor/*x*/apps/
