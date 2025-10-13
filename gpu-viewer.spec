@@ -14,7 +14,8 @@ BuildRequires:	ninja
 BuildRequires:	python-pkg-resources
 BuildRequires:	imagemagick
 
-Requires: gtk+3
+Requires: gtk4
+Requires: libadwaita-common
 Requires: python-gobject3
 Requires: python-gi
 Requires: grep
