@@ -1,7 +1,7 @@
 %define		oname GPU-Viewer
 
 Name:		gpu-viewer
-Version:	3.35
+Version:	4.00
 Release:	1
 Summary:	GPU Info
 URL:		https://github.com/arunsivaramanneo/GPU-Viewer
