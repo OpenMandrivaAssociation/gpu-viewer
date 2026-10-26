@@ -11,7 +11,7 @@ Group:		Development/Other
 BuildArch:	noarch
 BuildRequires:	meson
 BuildRequires:	ninja
-BuildRequires:	python-pkg-resources
+BuildRequires:	python-setuptools
 BuildRequires:	imagemagick
 
 Requires: gtk4
